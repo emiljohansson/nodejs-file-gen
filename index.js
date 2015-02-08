@@ -7,14 +7,13 @@ var dir = (function() {
     if (args[0].indexOf('--') < 0) return args[0];
     return "";
 }());
-var fullPath = process.cwd()+'/'+dir+'/'+fileName+'.js';
-var fullPathSpec = process.cwd()+'/'+dir+'/'+fileName+'Spec.js';
-
 var fileName = (function() {
     if (args.length < 2) return "";
     if (args[1].indexOf('--') < 0) return args[1];
     return "fileName";
 }());
+var fullPath = process.cwd()+'/'+dir+'/'+fileName+'.js';
+var fullPathSpec = process.cwd()+'/'+dir+'/'+fileName+'Spec.js';
 var today = new Date().toDateString();
 var author = "John Doe";
 
