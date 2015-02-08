@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-file-gen",
+  "version": "1.0.0",
+  "description": "generates a javascript and test file for node and browserify purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "node",
+    "browserify",
+    "generator"
+  ],
+  "author": "Emil Johansson <emiljohansson.se@gmail.com>",
+  "license": "MIT"
+}
