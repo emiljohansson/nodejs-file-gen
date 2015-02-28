@@ -2,10 +2,10 @@
  * ...
  *
  * @author  {author}
- * @version 1.0.0
+ * @version {version}
  * @since   {date}
  */
-'use strict';
+"use strict";
 
 /**
  * Factory method.

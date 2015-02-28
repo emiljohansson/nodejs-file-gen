@@ -1,9 +1,9 @@
+"use strict";
+
 var assert = require("assert");
-describe('File Name', function() {
-    'use strict';
+var factoryMethod = require('./{fileName}');
 
-    var factoryMethod = require('./{fileName}');
-
+describe('{fileName}', function() {
     it("should exist", function() {
         assert.equal(typeof factoryMethod, 'function');
         assert.equal(typeof factoryMethod(), 'object');

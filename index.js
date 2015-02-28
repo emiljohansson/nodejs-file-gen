@@ -16,11 +16,13 @@ var fullPath = process.cwd()+'/'+dir+'/'+fileName+'.js';
 var fullPathSpec = process.cwd()+'/'+dir+'/'+fileName+'Spec.js';
 var today = new Date().toDateString();
 var author = "John Doe";
+var version = "1.0.0";
 
 //Set author from project package file.
 fs.readFile(process.cwd()+'/package.json', 'utf8', function(err, data) {
     if (err) return console.log(err);
     author = JSON.parse(data).author;
+    version = JSON.parse(data).version;
 });
 
 //Read template and replace author and date
@@ -29,6 +31,7 @@ fs.readFile(__dirname+'/template.js', 'utf8', function(err, data) {
     var re = new RegExp("{fileName}", 'g');
     data = data.replace(re, fileName);
     data = data.replace("{author}", author);
+    data = data.replace("{version}", version);
     data = data.replace("{date}", today);
     generate(data, fullPath);
 });
