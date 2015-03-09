@@ -13,7 +13,7 @@
 module.exports = function() {
     /**
      * Returned object.
-     * @var object
+     * @var {Object}
      */
     var {fileName} = {};
 
