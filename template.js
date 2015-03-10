@@ -7,10 +7,12 @@
  */
 "use strict";
 
+exports = module.exports = factoryMethod;
+
 /**
  * Factory method.
  */
-module.exports = function() {
+function factoryMethod() {
     /**
      * Returned object.
      * @var {Object}
@@ -26,4 +28,4 @@ module.exports = function() {
     {fileName}.yyy = function() {};
 
     return {fileName};
-};
+}
