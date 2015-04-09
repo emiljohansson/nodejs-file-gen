@@ -11,6 +11,8 @@ exports = module.exports = createDirective;
 
 /**
  * Factory method.
+ *
+ * @return {Object}
  */
 function createDirective() {
     /**
