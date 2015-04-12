@@ -12,5 +12,8 @@
     "generator"
   ],
   "author": "Emil Johansson <emiljohansson.se@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.1.1"
+  }
 }
