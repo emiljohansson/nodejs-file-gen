@@ -7,10 +7,14 @@
  */
 "use strict";
 
-var moduleName = 'module-definition';
+/**
+ * Definition of the module.
+ * @type {String}
+ */
+exports.moduleName = 'module-definition';
 
 /* istanbul ignore next */
-angular.module(moduleName, []);
+angular.module(exports.moduleName, []);
 
 //.controller('aController', require('./aController'))
 
@@ -23,5 +27,3 @@ angular.module(moduleName, []);
 //.filter('doSomething', require('./doSomethingFilter'))
 
 //.service('handleSomehting', require('./handleSomething'))
-
-exports.moduleName = moduleName;
