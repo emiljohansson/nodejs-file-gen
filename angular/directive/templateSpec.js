@@ -18,13 +18,13 @@ describe('{fileName}', function() {
     describe('Controller', function() {
         it("should have properties", function() {
             var dir = factoryMethod();
-            var ctrl = dir.ctrl();
+            var ctrl = dir.controller();
             assert.equal(typeof ctrl.aVar, 'string');
         });
 
         it("should have functions", function() {
             var dir = factoryMethod();
-            var ctrl = dir.ctrl();
+            var ctrl = dir.controller();
             assert.equal(typeof ctrl.aMethod, 'function');
         });
     });
