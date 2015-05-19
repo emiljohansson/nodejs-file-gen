@@ -17,7 +17,7 @@ exports = module.exports = createDirective;
 function createDirective() {
     /**
      * Returned object.
-     * @var {Object}
+     * @type {Object}
      */
     var directive = {
         restrict: 'EA',
@@ -38,13 +38,13 @@ function createDirective() {
     function Controller() {
         /**
          * Returned object.
-         * @var {Object}
+         * @type {Object}
          */
         var vm = {};
 
         /**
          * ...
-         * @var {String}
+         * @type {String}
          */
         vm.aVar = "test";
 
@@ -71,7 +71,7 @@ function createDirective() {
     function linkFn(scope, el, attr, ctrl) {
         /**
          * ...
-         * @var {String}
+         * @type {String}
          */
         scope.aVar = "test";
     }

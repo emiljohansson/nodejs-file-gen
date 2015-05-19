@@ -11,11 +11,13 @@ exports = module.exports = factoryMethod;
 
 /**
  * Factory method.
+ *
+ * @return {Object}
  */
 function factoryMethod() {
     /**
      * Returned object.
-     * @var {Object}
+     * @type {Object}
      */
     var {fileName} = {};
 

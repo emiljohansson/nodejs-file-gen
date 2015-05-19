@@ -18,7 +18,7 @@ exports = module.exports = filterMethod;
 function filterMethod(item) {
     /**
      * Returned object.
-     * @var {*}
+     * @type {*}
      */
     var output;
 

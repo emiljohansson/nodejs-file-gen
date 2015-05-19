@@ -17,13 +17,13 @@ exports = module.exports = createController;
 function createController() {
     /**
      * Returned object.
-     * @var {Object}
+     * @type {Object}
      */
     var vm = {};
 
     /**
      * ...
-     * @var {String}
+     * @type {String}
      */
     vm.aVar = "test";
 

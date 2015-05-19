@@ -1,6 +1,6 @@
 "use strict";
 
-var assert = require("assert");
+var assert = require('assert');
 var factoryMethod = require('./{fileName}');
 
 describe('{fileName}', function() {
